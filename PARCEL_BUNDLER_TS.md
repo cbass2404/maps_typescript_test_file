@@ -1,5 +1,11 @@
 # Parcel Bundler TS Setup
 
+```
+$ npm install -g parcel-bundler
+```
+
+For documentation go to [parcelJS](https://parceljs.org/)
+
 1. Setup index.html
 
 ```html
@@ -22,7 +28,7 @@
 3. In your terminal, main directory enter the following command:
 
 ```
-$ parsel index.html
+$ parcel index.html
 ```
 
 4. Open your browser and navigate to the specified port (usually localhost:1234)

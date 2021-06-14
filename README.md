@@ -7,8 +7,10 @@ A typescript test app to experiment with class and interface functionality
 _If you do not have the parsel bundler installed already enter the following anywhere in your terminal_
 
 ```
-$ npm install -g parsel-bundler
+$ npm install -g parcel-bundler
 ```
+
+For more information on parcel bundler go to [parcelJS documentation](https://parceljs.org/)
 
 -   In your directory you want the files stored in put in the following:
 
@@ -23,7 +25,7 @@ $ npm install
 -   In root directory
 
 ```
-$ parsel index.html
+$ parcel index.html
 ```
 
 -   In browser go to localhost:1234 or the port specified if that one was taken
