@@ -1,5 +1,5 @@
 // Instructions to every other class on how to be compatible with CustomMap
-interface Mappable {
+export interface Mappable {
     location: {
         lat: number;
         lng: number;

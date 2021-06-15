@@ -731,3 +731,18 @@ Why we care?
 ```
 $ npm install @types/faker
 ```
+
+## Code to help typescript point you to the errors
+
+```javascript
+import { Mappable } from './CustomMap';
+
+export class User implements Mappable {
+    name: string;
+    location: {
+        lat: number;
+        lng: number;
+    };
+```
+
+-   When creating custom interfaces export it and import it into the class that should implement it, this tells typescript that it should match whatever parameters are set and points you straight to the errors
