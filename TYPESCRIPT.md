@@ -719,3 +719,15 @@ const car = new Car(4, 'orange');
 Why we care?
 
 -   interfaces + classes = how we get really strong code reuse in TS
+
+## Importing Javascript Libraries
+
+---
+
+-   Use type definition files to adapt javascript files for typescript use
+-   Use definitely typed file in their naming scheme
+    -   @types/{library name}
+
+```
+$ npm install @types/faker
+```
